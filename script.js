@@ -1,8 +1,8 @@
-function ingresar(){
-    const valorNombre = document.getElementsById('nombre').value;
-    const valorApellidos = document.getElementsById('apellidos').value;
-    const valorEmail = document.getElementsById('email').value;
-    const valorPassword = document.getElementsById('password').value;
+
+    const valorNombre = document.getElementById('nombre').value;
+    const valorApellidos = document.getElementById('apellidos').value;
+    const valorEmail = document.getElementById('email').value;
+    const valorPassword = document.getElementById('password').value;
 
 
     const object = {
@@ -15,5 +15,4 @@ function ingresar(){
     function cuentaCreada(){
         alert("Cuenta creada");  
       }
-
-}
+        
