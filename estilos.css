@@ -3,7 +3,6 @@
 }
 
 body{
-    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(jpg/fondo.jpg);
 }
@@ -49,4 +48,22 @@ body{
 }
 .color{
     background: black;
+}
+.circular--square{
+    border-radius: 50%;
+
+}
+.footer {
+    background: black;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px 5px;
+    bottom: 0;
+    text-align: center;
+  
+}
+.footer ul li {
+    text-decoration: none;
 }

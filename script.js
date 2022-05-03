@@ -4,11 +4,14 @@ function cuentaCreada(){
     const valorEmail = document.getElementById('email').value;
     const valorPassword = document.getElementById('password').value;
 
-    if(valorNombre === "" && valorApellidos === "" && valorEmail === "" && valorPassword){
-        alert('Llena el formulario');
-        
+    if(valorNombre === "" ){
+        alert('Completar campo Nombre');
+        alert('Completar campo Apellidos');
+        alert('Completar campo Email');
+        alert('Completar campo Password');
         return;
     }
+    
 
 
     const object = {
